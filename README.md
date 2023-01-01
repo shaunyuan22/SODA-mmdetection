@@ -2,7 +2,7 @@
 
 This project is based on the open source object detection toolbox [MMDetection](https://github.com/open-mmlab/mmdetection), please refer to [Installation](docs/en/get_started.md/#Installation) for installation instructions first.
 
-The benchmark experiments work with **PyTorch 1.10** and **mmdet 2.23.0**, and corresponding configs can be found at `sodad-benchmarks`
+The benchmark experiments work with **Python 3.8**, **PyTorch 1.10** and **mmdet 2.23.0**, and corresponding configs can be found at `sodad-benchmarks`
 
 ## Data preparation
 Please refer to `tools/img_split` for more details.
