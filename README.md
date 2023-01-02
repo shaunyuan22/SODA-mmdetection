@@ -21,7 +21,7 @@ If you use our benchmark in your research, please cite this project.
 }
 ```
 
-```
+```bibtex
 @article{mmdetection,
   title   = {{MMDetection}: Open MMLab Detection Toolbox and Benchmark},
   author  = {Chen, Kai and Wang, Jiaqi and Pang, Jiangmiao and Cao, Yuhang and
