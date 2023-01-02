@@ -5,7 +5,7 @@ This project is based on the open source object detection toolbox [MMDetection](
 The benchmark experiments work with **Python 3.8**, **PyTorch 1.10** and **mmdet 2.23.0**, and corresponding configs can be found at `sodad-benchmarks`.
 
 ## Data preparation
-Please refer to `tools/img_split` for more details.
+The data preparation of SODA-D is a little different from common detection datasets (e.g., COCO, VOC), where a image split processes is necessary before training, and more details please refer to `tools/img_split`.
 
 ## Citation
 
