@@ -491,6 +491,9 @@ class SODADeval:
                 mean_s = -1
             else:
                 mean_s = np.mean(s[s > -1])
+            print(
+                iStr.format(titleStr, typeStr, iouStr, areaRng, maxDets,
+                            mean_s))
             return mean_s
 
         def _summarizeDets():
