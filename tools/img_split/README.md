@@ -45,7 +45,7 @@ With regard to the evaluation, we'd like to bring two important points to your a
  - The evaluation is performed on the original images (**NOT ON** the splitted images).
  - The `ignore` regions will not be used in the evaluation phase.
 
-Hence you need to filter `ignore` annotations in the `val.json` and `test.json` in the rawData directory to get `val_wo_ignore.json` and `test_wo_ignore.json` for final performance evaluation. Finally, you may have the following folder sturcture:
+Hence you need to filter `ignore` annotations in the `val.json` and `test.json` in the rawData directory to get `val_wo_ignore.json` and `test_wo_ignore.json` for final performance evaluation. This could be finished by running `generate_wo_ignore.py`. Finally, you may have the following folder sturcture:
 
 ```none
 SODA-D
