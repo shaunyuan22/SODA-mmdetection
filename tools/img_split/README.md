@@ -31,12 +31,12 @@ mmdetection
 The original images will be cropped to 800\*800 patches with the stride of 150.
 
 ```shell
-python tools/img_split/sodad_split.py --cfgJson sodad_train.json 
+python tools/img_split/sodad_split.py --cfgJson split_train.json 
 ```
 Please change `oriImgDir`, `oriAnnDir` and `splDir` in json files before run the script. And if you want to visuzlize the annotations after split, please run the following script.
 
 ```shell
-python tools/img_split/sodad_split.py --cfgJson sodad_train.json --isVis
+python tools/img_split/sodad_split.py --cfgJson split_train.json --isVis
 ```
 
 ## About evaluation
