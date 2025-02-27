@@ -7,8 +7,10 @@ The benchmark experiments work with **Python 3.8**, **PyTorch 1.10** and **mmdet
 ## Data preparation
 The data preparation of SODA-D is a little different from common detection datasets (e.g., COCO, VOC), where a image split processes is necessary before training and please refer to [Split](https://github.com/shaunyuan22/SODA-mmdetection/tree/master/tools/img_split) part for more details.
 
-## Citation
+ ## **License**
+Our SODA-D dataset is licensed under [**CC BY-NC 4.0**](https://creativecommons.org/licenses/by-nc/4.0/), which means it is freely available for **academic use only**, and any **commercial use is prohibited**.
 
+## Citation
 If you use our benchmark in your research, please cite this project.
 
 
